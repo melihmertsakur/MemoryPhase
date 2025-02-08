@@ -40,6 +40,7 @@ public class OyunKontrol : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("commit gardas");
         ilkSecimDegeri = 0;
         zamanlayici = true;
         gecenzaman = 0;
