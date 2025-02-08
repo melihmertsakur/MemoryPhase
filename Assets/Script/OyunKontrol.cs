@@ -5,6 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//melih tuttum sıra sende //    
+
+
 public class OyunKontrol : MonoBehaviour
 {
     // GENEL AYARLAR
