@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-//melih tuttum sıra sende //    
+ 
 
 
 public class OyunKontrol : MonoBehaviour
@@ -43,7 +43,7 @@ public class OyunKontrol : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("commit gardas");
+        
         ilkSecimDegeri = 0;
         zamanlayici = true;
         gecenzaman = 0;
