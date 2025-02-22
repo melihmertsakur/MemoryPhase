@@ -7,6 +7,7 @@ public class anamenukontrol : MonoBehaviour
 {
     
     public GameObject CikisPanel;
+    public GameObject SorPanel;
     private void Start()
     {
         if (Time.timeScale==0)
@@ -17,6 +18,24 @@ public class anamenukontrol : MonoBehaviour
         CikisPanel.SetActive(true);      
 
     }
+    public void OyunSor()
+    {
+        SorPanel.SetActive(true);
+
+    }
+    public void Cevap1(string cevap1)
+    {
+
+        if (cevap1 == "evet")
+        {
+            SorPanel.SetActive(false);
+
+        }
+
+
+
+    }
+
     public void Cevap(string cevap)
     {
 
